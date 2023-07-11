@@ -15,7 +15,7 @@ I used the following hardware to improve the old anet A8 problems.
 
 # Instructions
 
-* Put the drivers in the board.
+* <b>Put the drivers in the board.</b>
   
 You can use the A4988 or the TMC2209, but I recommend to use the TMC if want to print at night, because they are very silent.
 You be careful with the orientation of the drivers, if you put them if the wrong direction you might burn your drivers and board. Put then as
@@ -28,7 +28,7 @@ All the dip switches should be in the on position. In case you do not know much 
 <img height="250px" src="https://github.com/julio22011/AnetA8_with_KMS_Tinybee_v1/blob/master/images/Dip%20switch%20for%20A4988%20or%20TMC2209.jpeg?raw=true">
 
 
-* Ajust the drivers current
+* <b>Ajust the drivers current</b>
 
 Depending on which drivers you used, you need to set the current for the motors. It varies depending on the driver, for example, nowadays there are also drivers that can be set by software. But, here I am going to tell what worked for me with the hardware mentioned.
 In my case I used the TMC2209, so we need to adjust the included potenciometer until we get the desired voltage. The voltage should be measured as shown in the following image.
@@ -40,7 +40,6 @@ In the first time, I adjusted the voltage to 0.9 volts, however, the motors got 
 * Update the firmware (Marlin) by OTA
 
 A advange of the MKS board is that it has OTA. So, you can send directly the bin file by WiFi.
-...
 
 -Paso 1: Connect to the printer access point.
 
@@ -59,12 +58,12 @@ basic configurations to be able to use the printer:
   Basic bin
 </a>
 
-* Change the hotten fan
+* <b>Change the hotten fan</b>
 
 Original hotten fan of the Anet is very noisy, so I think this can be a very valuable upgrade to this machine.
 Be careful with the fans in this board, because the original fans of the Anet have inverted the polarity of the cables. So, you have to modify the connector if you want to use them.
 
-* Add 3Dtouch sensor for automatic calibration
+* <b>Add 3Dtouch sensor for automatic calibration</b>
 
 (Future improvement...)
 
