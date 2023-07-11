@@ -1,6 +1,8 @@
 # AnetA8_with_KMS_TinyBee_v1
 This repository contains the binary files and some instructions for improving the old Anet A8 with new electronic components, in this case with the board KMS Tinybee. This board uses the esp32 controller.
 
+The reason why I did this improvement is that the original board got damaged. But also because in the past I had many inconvenience with it, for example, I had many problems of overheating.
+
 # List of hardware used
 I used the following hardware to improve the old anet A8 problems.
 
