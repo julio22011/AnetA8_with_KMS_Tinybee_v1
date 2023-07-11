@@ -37,7 +37,7 @@ In my case I used the TMC2209, so we need to adjust the included potenciometer u
 
 In the first time, I adjusted the voltage to 0.9 volts, however, the motors got very hot. Then, I used a voltage of 0.6 volts and they worked fine and cold.
 
-* Update the firmware (Marlin) by OTA
+* <b>Update the firmware (Marlin) by OTA</b>
 
 A advange of the MKS board is that it has OTA. So, you can send directly the bin file by WiFi.
 
