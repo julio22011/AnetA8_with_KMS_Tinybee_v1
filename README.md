@@ -20,7 +20,7 @@ You can use the A4988 or the TMC2209, but I recommend to use the TMC if want to 
 You be careful with the orientation of the drivers, if you put them if the wrong direction you might burn your drivers and board. Put then as
 you can see in the folloing photo (note: for the A4988 the potenciometer should be at the top).
 
-(photo)
+<img height="350px" src="https://github.com/julio22011/AnetA8_with_KMS_Tinybee_v1/blob/master/images/Board%20and%20drivers.jpeg?raw=true">
 
 All the dip switches should be in the on position. In case you do not know much about electronics, the dip switch is the red switches under the driver, they are used to determine the steps behavior of the driver. For A4988 or TMC2209 they can be as shown in the previos photo.
 
