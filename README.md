@@ -46,18 +46,18 @@ To keep this simple, I will not explain in details why is this number fine, but 
 
 A advange of the MKS board is that it has OTA. So, you can send directly the bin file by WiFi.
 
--Paso 1: Connect your computer to the printer WiFi access point.
+<b>Paso 1:</b> Connect your computer to the printer WiFi access point.
 
 The password is 12345678
 
--Paso 2: Open the IP in the browser.
+<b>Paso 2:</b> Open the IP in the browser.
 
 In the screen of the printer should appear an IP address. With this address you can open the platform where you can control the printer and, in this case, upload the new firmware with the correct configurations for the Anet A8.
 
 Probably you will get an error the first time. To solve this you just need to upload this file: 
 <a href="https://github.com/julio22011/AnetA8_with_KMS_Tinybee_v1/tree/master/HTML%20file%20you%20have%20to%20upload">HTML file</a>
 
--Paso 3: Upload new firmware
+<b>Paso 3:</b> Upload new firmware
 
 Go to the last window of the platform and select the yellow button to upload the new bin fie (new firmware). For example, the following is a bin that have the
 basic configurations to be able to use the printer: 
