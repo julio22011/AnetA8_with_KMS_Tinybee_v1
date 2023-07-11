@@ -25,7 +25,7 @@ You can use the A4988 or the TMC2209, but I recommend to use the TMC if want to 
 Depending on which drivers you used, you need to see the current for the motors. But, here I am going to tell what worked for me.
 In my case I used the TMC2209, so 
 
-<img scr="https://wiki.fysetc.com/images/2209%E6%B5%8Bvref.png">
+<img src="https://wiki.fysetc.com/images/2209%E6%B5%8Bvref.png">
 
 In the first time, I adjusted the voltage to 0.9 volts, however, motor got very hot. Then, I used a voltage of 0.6 volts.
 
