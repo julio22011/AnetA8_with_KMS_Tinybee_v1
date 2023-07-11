@@ -36,6 +36,8 @@ In my case I used the TMC2209, so we need to adjust the included potenciometer u
 <img height="200px" src="https://wiki.fysetc.com/images/2209%E6%B5%8Bvref.png">
 
 In the first time, I adjusted the voltage to 0.9 volts, however, the motors got very hot. Then, I used a voltage of 0.6 volts and they worked fine and cold.
+To keep this simple, I will not explain in details why is this number fine, but if you want to know, see this:
+<a href="https://all3dp.com/2/vref-calculator-tmc2209-tmc2208-a4988/">How to call Vref</a>
 
 * <b>Update the firmware (Marlin) by OTA</b>
 
