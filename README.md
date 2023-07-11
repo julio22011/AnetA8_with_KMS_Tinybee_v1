@@ -14,7 +14,7 @@ I used the following hardware to improve the old anet A8 problems.
 * 3D touch sensor and 3D printed support (I will probably design it in the future).
 
 Aditional hardware (optional):
-* New extreder MK8 (https://es.aliexpress.com/item/32927939042.html?spm=a2g0o.order_detail.order_detail_item.16.748d39d3o8vp3N&gatewayAdapt=glo2esp).
+* New extruder MK8 (https://es.aliexpress.com/item/32927939042.html?spm=a2g0o.order_detail.order_detail_item.16.748d39d3o8vp3N&gatewayAdapt=glo2esp).
 
 # Instructions
 
