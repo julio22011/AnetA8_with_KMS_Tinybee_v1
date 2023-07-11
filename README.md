@@ -69,8 +69,9 @@ basic configurations to be able to use the printer:
 
 * <b>Change the hotend fan</b>
 
-Original hotend fan of the Anet is very noisy, so I think this can be a very valuable upgrade for this machine.
-Be careful with the fans when connecting them to this board, because the original fans of the Anet have inverted the polarity of the cables. So, you have to modify the connector if you want to use them.
+Original hotend fan of the Anet is very noisy, so I think a replacement can be a very valuable upgrade for this machine. The mentioned in the materials list are very silent.
+
+If you want to use the origianl fans, be careful with the fans when connecting them to this board, because the original fans of the Anet have inverted the polarity of the cables. So, you have to modify the connector if you want to use them.
 
 * <b>Add 3Dtouch sensor for automatic calibration</b>
 
