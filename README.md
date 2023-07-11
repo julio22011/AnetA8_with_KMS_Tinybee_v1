@@ -2,23 +2,27 @@
 This repository contains the binary files and some instructions for improving the old Anet A8 with new electronic components, in this case with the board KMS Tinybee. This board uses the esp32 controller.
 
 # List of hardware used
-I use the following hardware to improve the old anet A8 problems.
+I used the following hardware to improve the old anet A8 problems.
 
-* Original Anet A8 hardware 
-* Drivers (A4988 or TMC2209) - I used TMC2209 (comes with the board when you buy it)
-* Board KMS TinyBee V1 and drivers (https://es.aliexpress.com/item/1005003822446877.html?spm=a2g0o.order_list.order_list_main.29.1875194dE3BpYl&gatewayAdapt=glo2esp)
-* 3D printed case (I will probably design it in the future)
-* 3D touch sensor 
+* Original Anet A8 hardware (motors, cables and so on).
+* Four drivers (A4988 or TMC2209) - I used TMC2209 (comes with the board when you buy it)
+* Board KMS TinyBee V1 and drivers (https://es.aliexpress.com/item/1005003822446877.html?spm=a2g0o.order_list.order_list_main.29.1875194dE3BpYl&gatewayAdapt=glo2esp).
 * Low noise extruder fan (12V) (https://es.aliexpress.com/item/4001177586848.html?spm=a2g0o.order_detail.order_detail_item.13.748d39d3o8vp3N&gatewayAdapt=glo2esp)
-* Two fans (12V) for electronics (https://es.aliexpress.com/item/1005004526691880.html?spm=a2g0o.order_detail.order_detail_item.10.748d39d3o8vp3N&gatewayAdapt=glo2esp)
+* Two fans (12V) for electronics (https://es.aliexpress.com/item/1005004526691880.html?spm=a2g0o.order_detail.order_detail_item.10.748d39d3o8vp3N&gatewayAdapt=glo2esp).
+* 3D printed case (I will probably design it in the future).
+* 3D touch sensor and 3D printed support (I will probably design it in the future).
 
 # Instructions
 
 * Put the drivers in the board.
   
-You can use the A4988 or the TMC2209, but I recommend to use the TMC if want to use the printer at night, because they are very silent.
+You can use the A4988 or the TMC2209, but I recommend to use the TMC if want to print at night, because they are very silent.
+You be careful with the orientation of the drivers, if you put them if the wrong direction you might burn your drivers and board. Put then as
+you can see in the folloing photo (note: for the A4988 the potenciometer should be at the top).
 
-(photo)
+<img height="350px" src="https://github.com/julio22011/AnetA8_with_KMS_Tinybee_v1/blob/master/images/Board%20and%20drivers.jpeg?raw=true">
+
+All the dip switches should be in the on position. In case you do not know much about electronics, the dip switch is the red switches under the driver, they are used to determine the steps behavior of the driver. For A4988 or TMC2209 they can be as shown in the previos photo.
 
 * Ajust the drivers current
 
