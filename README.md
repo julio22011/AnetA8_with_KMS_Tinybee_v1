@@ -22,7 +22,10 @@ you can see in the folloing photo (note: for the A4988 the potenciometer should 
 
 <img height="350px" src="https://github.com/julio22011/AnetA8_with_KMS_Tinybee_v1/blob/master/images/Board%20and%20drivers.jpeg?raw=true">
 
-All the dip switches should be in the on position. In case you do not know much about electronics, the dip switch is the red switches under the driver, they are used to determine the steps behavior of the driver. For A4988 or TMC2209 they can be as shown in the previos photo.
+All the dip switches should be in the on position. In case you do not know much about electronics, the dip switch is the red switches under the driver, they are used to determine the steps behavior of the driver. For A4988 or TMC2209 they can be as shown in the following photo.
+
+<img height="250px" src="https://github.com/julio22011/AnetA8_with_KMS_Tinybee_v1/blob/master/images/Dip%20switch%20for%20A4988%20or%20TMC2209.jpeg?raw=true">
+
 
 * Ajust the drivers current
 
@@ -37,7 +40,8 @@ In the first time, I adjusted the voltage to 0.9 volts, however, motor got very 
 
 A advange of the MKS board is that it has OTA. So, you can send directly the bin file by WiFi.
 ...
-- Paso 1:
+
+-Paso 1:
 
 * Change the hotten fan
 
