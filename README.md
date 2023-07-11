@@ -9,6 +9,7 @@ I used the following hardware to improve the old anet A8 problems.
 * Board KMS TinyBee V1 and drivers (https://es.aliexpress.com/item/1005003822446877.html?spm=a2g0o.order_list.order_list_main.29.1875194dE3BpYl&gatewayAdapt=glo2esp).
 * Low noise extruder fan (12V) (https://es.aliexpress.com/item/4001177586848.html?spm=a2g0o.order_detail.order_detail_item.13.748d39d3o8vp3N&gatewayAdapt=glo2esp)
 * Two fans (12V) for electronics (https://es.aliexpress.com/item/1005004526691880.html?spm=a2g0o.order_detail.order_detail_item.10.748d39d3o8vp3N&gatewayAdapt=glo2esp).
+* Screen MKS Mini12864 V3.
 * 3D printed case (I will probably design it in the future).
 * 3D touch sensor and 3D printed support (I will probably design it in the future).
 
@@ -29,19 +30,34 @@ All the dip switches should be in the on position. In case you do not know much 
 
 * Ajust the drivers current
 
-Depending on which drivers you used, you need to see the current for the motors. But, here I am going to tell what worked for me.
-In my case I used the TMC2209, so 
+Depending on which drivers you used, you need to set the current for the motors. It varies depending on the driver, for example, nowadays there are also drivers that can be set by software. But, here I am going to tell what worked for me with the hardware mentioned.
+In my case I used the TMC2209, so we need to adjust the included potenciometer until we get the desired voltage. The voltage should be measured as shown in the following image.
 
 <img height="200px" src="https://wiki.fysetc.com/images/2209%E6%B5%8Bvref.png">
 
-In the first time, I adjusted the voltage to 0.9 volts, however, motor got very hot. Then, I used a voltage of 0.6 volts.
+In the first time, I adjusted the voltage to 0.9 volts, however, the motors got very hot. Then, I used a voltage of 0.6 volts and they worked fine and cold.
 
 * Update the firmware (Marlin) by OTA
 
 A advange of the MKS board is that it has OTA. So, you can send directly the bin file by WiFi.
 ...
 
--Paso 1:
+-Paso 1: Connect to the printer access point.
+
+-Paso 2: Open the IP in the browser.
+
+In the screen of the printer should appear an IP address. With this address you can open the platform where you can control the printer and, in this case, upload the new firmware with the correct configurations for the Anet A8.
+
+Probably you will get an error the first time. To solve this you just need to upload this file: 
+<a href="https://github.com/julio22011/AnetA8_with_KMS_Tinybee_v1/tree/master/HTML%20file%20you%20have%20to%20upload">HTML file</a>
+
+-Paso 3: Upload new firmware
+
+Go to the last window of the platform and select the yellow button to upload the new bin fie (new firmware). For example, the following is a bin that have the
+basic configurations to be able to use the printer: 
+<a href="https://github.com/julio22011/AnetA8_with_KMS_Tinybee_v1/blob/master/Binary%20files/Binary%20(working%20fine%20with%20original%20hardware)/firmware.bin">
+  Basic bin
+</a>
 
 * Change the hotten fan
 
