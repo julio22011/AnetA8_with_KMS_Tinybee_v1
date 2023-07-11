@@ -41,7 +41,9 @@ In the first time, I adjusted the voltage to 0.9 volts, however, the motors got 
 
 A advange of the MKS board is that it has OTA. So, you can send directly the bin file by WiFi.
 
--Paso 1: Connect to the printer access point.
+-Paso 1: Connect your computer to the printer WiFi access point.
+
+The password is 12345678
 
 -Paso 2: Open the IP in the browser.
 
