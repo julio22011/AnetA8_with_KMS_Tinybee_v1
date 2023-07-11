@@ -21,7 +21,7 @@ Aditional hardware (optional):
 * <b>Put the drivers in the board.</b>
   
 You can use the A4988 or the TMC2209, but I recommend to use the TMC if want to print at night, because they are very silent.
-You be careful with the orientation of the drivers, if you put them if the wrong direction you might burn your drivers and board. Put then as
+Be careful with the orientation of the drivers, if you put them if the wrong direction you might burn your drivers and board. Put then as
 you can see in the folloing photo (note: for the A4988 the potenciometer should be at the top).
 
 <img height="350px" src="https://github.com/julio22011/AnetA8_with_KMS_Tinybee_v1/blob/master/images/Board%20and%20drivers.jpeg?raw=true">
