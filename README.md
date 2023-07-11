@@ -33,7 +33,7 @@ In the first time, I adjusted the voltage to 0.9 volts, however, motor got very 
 
 A advange of the MKS board is that it has OTA. So, you can send directly the bin file by WiFi.
 ...
-** Paso 1:
+- Paso 1:
 
 * Change the hotten fan
 
